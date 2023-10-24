@@ -25,3 +25,10 @@
 #container a {
   text-decoration: none;
 }
+
+.gridPokemons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@import "bootstrap";

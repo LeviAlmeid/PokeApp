@@ -1,20 +1,39 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Pokemons
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid  [fixed]="true">
+    <!-- <ion-row>
+      <h1><strong>Pokemons</strong></h1>
+    </ion-row> -->
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-row *ngFor="let poke of pokemons; let i = index">
+      <ion-col button style="max-width: 27rem;" [routerLink]="poke.pokeIndex">
+        <ion-card>
+          <img  src={{poke.image}} />
+          <ion-card-header>
+            <ion-card-title class="item-text-center">
+              <h2 [innerText]="poke.name"></h2>
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+
+
+    </ion-row>
+
+  </ion-grid>
+
+
+  <ion-infinite-scroll (ionInfinite)="getPokemons(true, $event)">
+  <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Carregando mais Pokemons...">
+
+  </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
 </ion-content>
