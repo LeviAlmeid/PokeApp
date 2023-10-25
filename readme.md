@@ -3,7 +3,8 @@
 
 ![image](https://github.com/LeviAlmeid/PokeApp/assets/73829965/fb948458-7714-43bc-a25f-799874ca79c1)
 
-![image](https://github.com/LeviAlmeid/PokeApp/assets/73829965/95c247e5-84b8-4aba-bb5f-6068abfe2532)
+![image](https://github.com/LeviAlmeid/PokeApp/assets/73829965/8e5e4ebe-7f4f-4c11-811b-0eee16796ebe)
+
 
 
 
