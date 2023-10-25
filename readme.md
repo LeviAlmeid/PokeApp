@@ -5,8 +5,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+![image](https://github.com/LeviAlmeid/PokeApp/assets/73829965/ec356651-26c0-4428-9748-0161f2c96d34)
+![image](https://github.com/LeviAlmeid/PokeApp/assets/73829965/95c247e5-84b8-4aba-bb5f-6068abfe2532)
 
-Projeto contendo uma Pokedex de pokemons, feito para estudos e testes
+
+
+No meu projeto de Pokédex, comecei criando as páginas "home" e "details". Meu foco inicial foi estabelecer a conexão com uma API de forma eficiente e organizar os dados para que fossem facilmente acessíveis em meu aplicativo.
+
+Após obter com sucesso os dados da API e estruturá-los de forma organizada, direcionei meus esforços para o aspecto visual do aplicativo. Melhorei o design e a aparência dos componentes da tela, visando proporcionar uma experiência mais agradável aos usuários.
+
+Por fim, trabalhei na responsividade do aplicativo, garantindo que ele seja capaz de rodar tanto em dispositivos móveis quanto na web. Durante todo o projeto, consegui aprofundar meus conhecimentos em Ionic e aplicar minhas habilidades em fazer solicitações a APIs.
 
 
 
