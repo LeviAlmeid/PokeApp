@@ -1,9 +1,5 @@
 
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
+ PokeApp - Pokedex de informações sobre os pokemons
 
 ![image](https://github.com/LeviAlmeid/PokeApp/assets/73829965/fb948458-7714-43bc-a25f-799874ca79c1)
 
