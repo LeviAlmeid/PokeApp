@@ -1,20 +1,17 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
+  <ion-toolbar color="primary">
+    <ion-title >
       Pokemons
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-grid  [fixed]="true">
-    <!-- <ion-row>
-      <h1><strong>Pokemons</strong></h1>
-    </ion-row> -->
+  <ion-grid  [fixed]="true" id="pokeGrid">
 
-    <ion-row *ngFor="let poke of pokemons; let i = index">
-      <ion-col button style="max-width: 27rem;" [routerLink]="poke.pokeIndex">
-        <ion-card>
+    <ion-row *ngFor="let poke of pokemons; let i = index" style="max-width: 300px;">
+      <ion-col col-6 button  [routerLink]="poke.pokeIndex">
+        <ion-card id="pokeCard">
           <img  src={{poke.image}} />
           <ion-card-header>
             <ion-card-title class="item-text-center">
