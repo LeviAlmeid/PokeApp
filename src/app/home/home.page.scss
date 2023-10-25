@@ -44,9 +44,15 @@
 }
 
 #pokeGrid{
-  max-height: 300px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 580px){
+  #pokeGrid{
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
 }
 
 @import "bootstrap";

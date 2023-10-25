@@ -14,13 +14,13 @@
 </ion-header>
 
 <ion-content>
-  <div *ngIf="details" style="">
-    <ion-item style="width: 100%; display: flex; align-items: center; justify-content: center;">
+  <div *ngIf="details" style="" id="pokeDivDetails">
+    <ion-item id="pokeItem" style="width: 100%; display: flex; align-items: center; justify-content: center;">
       <img [src]="details.images[2]" alt="" width="70%">
     </ion-item>
 
 
-  <ion-card>
+  <ion-card id="pokeCardDetails">
     <ion-card-header>
       <ion-card-title class="ion-text-capitalize">#{{details.id}} {{details.name}}
         <ion-chip color="primary" *ngFor="let t of details.types">
