@@ -55,6 +55,11 @@ _Below is an example of how you can instruct your audience on installing and set
    npm install -g @angular/cli
    ```
 
+5. Para rodar o projeto:
+   ```sh
+   ng serve
+   ```
+
 
 
 <!-- CONTACT -->
