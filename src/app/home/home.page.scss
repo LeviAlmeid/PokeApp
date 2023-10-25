@@ -48,6 +48,13 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.card__bg{
+margin-top: 1rem;
+color: #ffff;
+height: 130px;
+z-index: 1;
+}
+
 @media (max-width: 580px){
   #pokeGrid{
     grid-template-columns: 1fr;

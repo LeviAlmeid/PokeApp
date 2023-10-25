@@ -14,9 +14,9 @@
 </ion-header>
 
 <ion-content>
-  <div *ngIf="details" style="" id="pokeDivDetails">
+  <div *ngIf="details"  id="pokeDivDetails">
     <ion-item id="pokeItem" style="width: 100%; display: flex; align-items: center; justify-content: center;">
-      <img [src]="details.images[2]" alt="" width="70%">
+      <img src="https://projectpokemon.org/images/normal-sprite/{{details.name}}.gif" alt="" width="40%">
     </ion-item>
 
 
@@ -31,7 +31,7 @@
         </ion-chip>
       </ion-card-title>
       <ion-label class="ion-text-capitalize">
-       <h2>{{details.weight}} kg</h2>
+       <h2>{{details.weight}} lbs</h2>
       </ion-label >
     </ion-card-header>
 
