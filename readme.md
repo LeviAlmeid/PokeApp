@@ -1,11 +1,8 @@
 
+ PokeApp - Pokedex de informações sobre os pokemons
 
+![image](https://github.com/LeviAlmeid/PokeApp/assets/73829965/fb948458-7714-43bc-a25f-799874ca79c1)
 
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-![image](https://github.com/LeviAlmeid/PokeApp/assets/73829965/ec356651-26c0-4428-9748-0161f2c96d34)
 ![image](https://github.com/LeviAlmeid/PokeApp/assets/73829965/95c247e5-84b8-4aba-bb5f-6068abfe2532)
 
 
@@ -56,6 +53,11 @@ _Below is an example of how you can instruct your audience on installing and set
 4. Install Angular packages
    ```sh
    npm install -g @angular/cli
+   ```
+
+5. Para rodar o projeto:
+   ```sh
+   ng serve
    ```
 
 
