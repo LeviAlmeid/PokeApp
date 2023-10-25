@@ -29,6 +29,12 @@
           </ion-label>
 
         </ion-chip>
+        <ion-button id="btnStar" *ngIf="isStar" style="color: yellow" class="" (click)="changeStar()">
+          <ion-icon name="star-half-outline"></ion-icon>
+        </ion-button>
+        <ion-button id="btnStar" *ngIf="!isStar"  style="color: white" (click)="changeStar()">
+          <ion-icon name="star-half-outline"></ion-icon>
+        </ion-button>
       </ion-card-title>
       <ion-label class="ion-text-capitalize">
        <h2>{{details.weight}} lbs</h2>

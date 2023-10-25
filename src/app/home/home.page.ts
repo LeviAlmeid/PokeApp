@@ -22,6 +22,8 @@ export class HomePage implements OnInit{
     this.getPokemons()
   }
 
+
+
   getPokemons(loadMore = false, event?:any){
 
     if(loadMore){
@@ -31,7 +33,7 @@ export class HomePage implements OnInit{
     this.httpService.getPokemons(this.offset).subscribe((data: any) =>
     {
       this.pokemons = [...this.pokemons, ...data]
-
+      console.log(this.pokemons)
       if(event){
         event.target.complete();
       }

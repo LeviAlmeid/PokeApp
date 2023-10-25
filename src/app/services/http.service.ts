@@ -17,6 +17,7 @@ export class HttpService {
 
   baseUrl =  "https://pokeapi.co/api/v2"
   imageUrl = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/"
+  typeUrl = "https://pokeapi.co/api/v2/type/"
 
   constructor(
     private http: HttpClient
@@ -38,6 +39,9 @@ export class HttpService {
       })
     );
   }
+
+
+
 
   getPokeImage(index: number){
     return `${this.imageUrl}${index}.png`
